@@ -54,6 +54,10 @@
       - sat_install_source is match("repo")
       - sat_repo_file is search("^(?!(https?|s?ftps?):\/\/)")
 
+  - name: Add Satellite Maintenance repo
+    copy:
+      src: foreman-maintain.repo
+      dest: /etc/yum.repos.d/
 
   # Setup repos when installing from CDN
   - name: "CDN Satellite repo configured"

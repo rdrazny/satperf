@@ -1,0 +1,6 @@
+[Sat6-CI_Red_Hat_Satellite_6_4_Composes_Satellite_Maintenance]
+metadata_expire = 1
+baseurl = http://sat-r220-02.lab.eng.rdu2.redhat.com/pulp/repos/Sat6-CI/QA/Satellite_Maintenance_RHEL7/custom/Satellite_Maintenance_Composes/Satellite_Maintenance_RHEL7/
+name = Satellite_Maintenance
+enabled = 1
+gpgcheck = 0
